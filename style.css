@@ -1,0 +1,41 @@
+*{
+    background-color: whitesmoke;
+}
+
+.main-header{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.subheading-itle{
+    font-size: 18px;
+}
+
+.g20{
+    display: inline-block;
+    margin-left: 0.5rem;
+    width: 200px;
+    height: auto;
+    transition: .4s;
+    outline: none;
+    background-color: transparent;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.g20:hover{
+    transition: .4s;
+    transform: scale(1.2);
+    outline: 1.5px solid blue;
+    backdrop-filter: blur(20px);
+    background-color: #aba8a7;
+    cursor: pointer;
+}
+
+
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
